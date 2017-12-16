@@ -8,10 +8,28 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/add10data.css">
 
-	<title>首頁</title>
+	<title></title>
 </head>
 <body>
-    <a href="./add.html" class="btn btn-success">find</a>    
-    <a href="./index.html" class="btn btn-success">new</a>
+    <div class="container main">
+        <div class="row title">
+            	<h1>查詢近五筆資料</h1>
+        </div>
+        <div class="row"  >
+            <table class="table table-bordered " >
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>日期</td>
+                        <td>種類</td>
+                        <td>金額</td>                         
+                    </tr>
+                </thead>
+                <tbody id="myTbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/add.js"></script>
 </body>
 </html>

@@ -1,11 +1,10 @@
+var fdb = new ForerunnerDB();
+var myDb = fdb.db("myDb");
+var myCollection = myCollection.find
 function show(){
 	var data = myCollection.find();
 	console.log(data);
 }
-
-var fdb = new ForerunnerDB();
-var myDb = fdb.db("myDb");
-var myCollection = myDb.collection("myCollection")
 
 
 $("#submit").on("click",function(){

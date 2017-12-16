@@ -1,0 +1,43 @@
+html,body{
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  display:flex;
+
+  text-align: center;
+  font-family: 微軟正黑體;
+  color:#FFF;
+}
+body{
+    background-image: url(../images/waterfall.jpg);
+    background-size: cover;
+    background-attachment:fixed; /* 背景固定不動*/
+
+}
+
+.container{
+  background-color:rgba(0,0,0,0.5);
+
+  overflow: auto;
+  padding:20px 40px;
+}
+.row{
+  margin:20px;
+  width:100%px;
+  font-size:15px;
+}
+.btn{
+  width:100%;
+  font-size:25px;
+}
+
+table{
+  background-color:rgba(0,0,0,0.5);
+  margin--top:20px;
+  font-size:15px;
+}
+input{
+  width:200px;
+  background-color:rgba(0,0,0,0.5);
+}

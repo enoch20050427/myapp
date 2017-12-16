@@ -1,7 +1,7 @@
 function show(){
 	var data = myCollection.find({},{
 		$orderBy:{date:-1},
-		$limit:5
+		$limit:10
 	});
 	console.log(data);
 	for(var i=0; i<data.length ; i++){
