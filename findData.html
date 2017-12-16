@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="text/javascript" src="js/fdb-all.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/finddata.css">
+
+    <title></title>
+</head>
+<body>
+    <div class="container main">
+        <div class="row title">
+                <h1>支出查詢</h1>
+        </div> 
+        <h5>從<input type="date" id="from"> </h5>
+        <h5>到<input type="date" id="to"> </h5> 
+        <button type="button" id="bbb" class="btn btn-primary">查詢</button> 
+        <div class="row"  >
+            <table class="table  " >
+                <thead>
+                    <tr>
+                        <td>類別</td>
+                        <td>金額</td>
+                        <td>比例</td>                         
+                    </tr>
+                </thead>
+                <tbody id="percent">
+                </tbody>
+            </table>
+
+            <table class="table  " >
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>日期</td>
+                        <td>種類</td>
+                        <td>金額</td>                         
+                    </tr>
+                </thead>
+                <tbody id="myTbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/findData.js"></script>
+</body>
+</html>
